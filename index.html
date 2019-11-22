@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body background="https://wallpaperfm.com/img/original/7/b/a/13396.jpg">
+    <div id = "biggestContainer">
+        <div class="topHs">
+            <h1>TicTacToe</h1>
+        </div>
+        <div class ="topHs">
+            <h2  id = "yourTurn">It's o's turn</h2>
+        </div>
+            <div id= "board">
+                <div class= "bay">  
+                    <div class="none">
+                        <button type="submit" id="myBtn1" onclick="anyButton(1)"class= "button" ></button>
+                    </div>
+                    <div class="ticTacToeRows">
+                        <button type="button" id="myBtn4" onclick="anyButton(4)"class= "button" ></button>
+                    </div>
+                    <div class="none">
+                        <button type="button" id="myBtn7" onclick="anyButton(7)"class= "button" ></button>
+                    </div>
+            </div><!--
+        --><div class= "bay">
+            <div class="ticTacToeColumns">
+                <button type="button" id="myBtn2" onclick="anyButton(2)"class= "button" ></button>
+            </div>
+            <div class="ticTacToeMid">
+                <button type="button" id="myBtn5" onclick="anyButton(5)"class= "button" ></button>
+            </div>
+            <div class="ticTacToeColumns">
+                <button type="button" id="myBtn8" onclick="anyButton(8)"class= "button" ></button>
+            </div>
+        </div><!--
+        --><div class="bay">
+                <div class="none">
+                    <button type="button" id="myBtn3" onclick="anyButton(3)"class= "button" ></button>
+                </div>
+                <div class="ticTacToeRows">
+                    <button type="button" id="myBtn6" onclick="anyButton(6)"class= "button" ></button>
+                </div>
+                <div class="none">
+                    <button type="button" id="myBtn9" onclick="anyButton(9)"class= "button" ></button>
+                </div>
+            </div>
+        </div>
+        <div class="thisClassMakesARow">
+            <div class="topHs">
+                <h2 id = "scoreO" >O: 0 </h2>
+            </div>
+            <div id="spacer" >
+                    <button type="button" id="bot" onclick="turnOnBot()">Solo Mode</button>
+            </div>
+            <div class="topHs">
+                <h2 id = "scoreX" >X: 0 </h2>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    
+</script>
+</html>
